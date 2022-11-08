@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+ 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: anton;
+}
+header {
+    background-color: rgb(114, 3, 3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0% 30px;
+}
+
+.logo {
+    height: 95%;
+   }
+
+.navbar,
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+
+.nav-list {
+    gap: 40px;
+}
+
+.nav-list a {
+    color:rgb(44, 153, 196);
+    font-size: x-large;
+    
+}
